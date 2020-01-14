@@ -1,0 +1,32 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="transit-gateway" audience="network" href="/docs/infrastructure/transit-gateway?topic=infrastructure/transit-gateway-getting-started" path="infrastructure/transit-gateway"}
+IBM Cloud Transit Gateway (Beta)
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about.md
+
+    {: .topicgroup}
+    Related Links
+        [Virtual Private Cloud](/vpc/vpc-getting-started)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    connecting-vpcs.md
+    connecting-vpcs-different.md
+    connecting-vpcs-classic-infrastructure.md
+    editing-gateway.md
+    deleting-gateway.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    iam.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    helpful-tips.md
+    faqs.md
+    getting-help.md
+    {: .navgroup-end}
