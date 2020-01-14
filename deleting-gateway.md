@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-12-04"
+  years: 2020
+lastupdated: "2020-01-14"
 
 keywords: transit, gateway, deleting
 
