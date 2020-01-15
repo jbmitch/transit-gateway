@@ -22,10 +22,13 @@ subcollection: transit-gateway
 {:external: target="_blank_" .external}
 {:term: .term}
 
-# Getting started with IBM Cloud Transit Gateway
+# Getting started with IBM Cloud Transit Gateway (Beta)
 {: #getting-started}
 
-Use IBM Cloud™ Transit Gateway to securely connect IBM Cloud Classic and Virtual Private Cloud (VPC) infrastructures worldwide, keeping traffic within the IBM Cloud network. With Transit Gateway, organizations can define and control communications between resources on the IBM Cloud network, providing dynamic scalability, high availability, and secure, in-transit data between IBM Cloud data centers. These transit gateways are commonly implemented to support hybrid workloads, frequent data transfers, private workloads, or to ease administration of the IBM Cloud environment.
+IBM Cloud™ Transit Gateway (currently in Beta) is only available to whitelisted users. Contact your IBM sales representative if you are interested in getting early access.  
+{: note}
+
+Use IBM Cloud Transit Gateway to securely connect IBM Cloud Classic and Virtual Private Cloud (VPC) infrastructures worldwide, keeping traffic within the IBM Cloud network. With Transit Gateway, organizations can define and control communications between resources on the IBM Cloud network, providing dynamic scalability, high availability, and secure, in-transit data between IBM Cloud data centers. These transit gateways are commonly implemented to support hybrid workloads, frequent data transfers, private workloads, or to ease administration of the IBM Cloud environment.
 {: shortdesc}
 
 To use the Transit Gateway capability to connect your VPCs, you must have two or more VPCs associated with your IBM Cloud account in the IBM Cloud private network. To use the Transit Gateway capability to connect your VPCs to your IBM Cloud classic infrastructure, you must have at least one VPC associated with your IBM Cloud account in the IBM Cloud private network, and your classic account must be VRF-enabled and linked to your IBM Cloud account. For more information, refer to [Linking IBMid accounts](/docs/account?topic=account-unifyingaccounts).
