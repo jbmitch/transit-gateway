@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="transit-gateway" audience="network" href="/docs/infrastructure/transit-gateway?topic=infrastructure/transit-gateway-getting-started" path="infrastructure/transit-gateway"}
+{: .toc subcollection="transit-gateway" audience="network" href="/docs/transit-gateway?topic=transit-gateway-getting-started" path="transit-gateway"}
 IBM Cloud Transit Gateway (Beta)
 
     {: .navgroup id="learn"}
