@@ -34,10 +34,10 @@ Transit Gateway supports Reader, Writer, and Manager service-access roles.
 | Role | Description of Actions | Example Actions |
 |---|---|---|
 | Reader | Performs actions that don't change the state of resources. |<ul><li>List gateways</li><li>Get gateways</li><li>List a gateway's connections</li><li>View a gateway's connections</li></ul>
-| Writer and Manager | Performs all actions, including managing gateways and connections. |<ul><li>Create gateways</li><li>Delete gateways</li><li>Edit gateways</li><li>Add or remove gateway connections[^remove] </li><li>Edit gateway connections |                     |
+| Writer and Manager | Performs all actions, including managing gateways and connections. |<ul><li>Create gateways</li><li>Delete gateways</li><li>Edit gateways</li><li>Add or remove gateway connections&#8902; </li><li>Edit gateway connections |                     |
 {: caption="Table 1. IAM service-access user roles and actions" caption-side="top"}
 
-[^remove]: To add or remove connections to VPCs, the user must have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
+&#8902; To add or remove connections to VPCs, the user must have Editor or Administrator platform-access role permissions to the VPC. See [VPC: Getting started with IAM](/docs/vpc?topic=vpc-iam-getting-started) for more information.
 
 ## Platform-access roles
 {: #platform-access-roles}
