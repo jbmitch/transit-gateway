@@ -62,7 +62,7 @@ You can also access the ordering page from the [IBM Cloud catalog ![External lin
 You can now choose and configure the network connections you want to add to your transit gateway:
 1. Select the **classic infrastructure** network connection type from the list.
 
-All IBM Cloud Classic Infrastructure networks across regions will connect using this connection, regardless of the transit gateway’s local or global routing setting.
+All of your IBM Cloud Classic Infrastructure networks across regions are accessible through this connection, regardless of the transit gateway’s local or global routing setting.
 {: tip}
 
 2. Click **Add Connection**.
