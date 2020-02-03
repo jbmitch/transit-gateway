@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-14"
+lastupdated: "2020-01-28"
 
 keywords: transit, gateway, connecting, vpc, classic infrastructure
 
@@ -25,7 +25,7 @@ subcollection: transit-gateway
 # Connecting VPCs to your IBM Cloud classic infrastructure
 {: #connecting-classic-infrastructure-vpcs}
 
-To use the IBM Cloud™ Transit Gateway capability with the IBM Cloud classic infrastructure, you must have at least one IBM Cloud Virtual Private Cloud (VPC) associated with your IBM Cloud account in the IBM Cloud private network, and your classic account must be linked to your IBM Cloud account.
+To use the {{site.data.keyword.tg_full}} capability with the IBM Cloud classic infrastructure, you must have at least one IBM Cloud Virtual Private Cloud (VPC) associated with your IBM Cloud account in the IBM Cloud private network, and your classic account must be linked to your IBM Cloud account.
 {: shortdesc}
 
 Refer to [Linking IBMid accounts](/docs/account?topic=account-unifyingaccounts) for more information on linking your classic account.
@@ -42,7 +42,7 @@ In order to use the transit gateway capability with your classic infrastructure,
 To connect your VPCs to your IBM Cloud classic infrastructure using a transit gateway, perform the following procedure:
 
 1. From your browser, open the [IBM Cloud console](https://cloud.ibm.com/catalog){: external} and log in to your account.
-2. Select **Networking** from the left, then click the Transit Gateway tile to bring up the Transit Gateway ordering page.
+2. Select **Networking** from the left, then click the Transit Gateway tile to bring up the transit gateway ordering page.
 
 You can also access the ordering page from the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Hybrid Networking** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
 {: note}

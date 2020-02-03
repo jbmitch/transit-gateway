@@ -2,7 +2,7 @@
 
 copyright:
   years: 20120
-lastupdated: "2020-01-14"
+lastupdated: "2020-01-28"
 
 keywords: help, support, contact, troubleshooting, transit, gateway
 
@@ -24,5 +24,5 @@ subcollection: transit-gateway
 # Getting help and support
 {: #getting-help-and-support}
 
-Thank you for participating in the IBM Cloud™ Transit Gateway Beta. Currently, the fastest path to help and support is by contacting your IBM sales representative. Other support options will be made available in the future.
+Thank you for participating in the {{site.data.keyword.tg_full}}. Currently, the fastest path to help and support is by contacting your IBM sales representative. Other support options will be made available in the future.
 {: shortdesc}

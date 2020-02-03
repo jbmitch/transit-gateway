@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-14"
+lastupdated: "2020-01-28"
 
 keywords: transit, gateway, editing
 
@@ -25,7 +25,7 @@ subcollection: transit-gateway
 # Managing your transit gateways
 {: #edit-gateway}
 
-You can add or delete connections from your transit gateways using the IBM Cloud™ console.
+You can add or delete connections from your {{site.data.keyword.tg_full}} using the IBM Cloud™ console.
 {: shortdesc}
 
 ## Deleting connections

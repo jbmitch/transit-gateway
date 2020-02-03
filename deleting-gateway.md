@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-14"
+lastupdated: "2020-01-28"
 
 keywords: transit, gateway, deleting
 
@@ -25,7 +25,7 @@ subcollection: transit-gateway
 # Deleting your transit gateways
 {: #delete-gateway}
 
-You can delete your IBM Cloud™ Transit Gateways using this procedure.
+You can delete your {{site.data.keyword.tg_full}} using this procedure.
 {: shortdesc}
 
 1. From your browser, open the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.

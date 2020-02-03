@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-14"
+lastupdated: "2020-01-28"
 
 keywords: transit, gateway, help, tips, connections, provision
 
@@ -24,7 +24,7 @@ subcollection: transit-gateway
 # Helpful tips
 {: #helpful-tips}
 
-There are several useful tips for working with IBM Cloud™ Transit Gateway to be aware of.
+There are several useful tips for working with {{site.data.keyword.tg_full}} to be aware of.
 {: shortdesc}
 
 * Always create your transit gateway in a location that makes sense for your workload. For example, if you are connecting two `Dallas` VPCs and one `Frankfurt` VPC, creating your gateway in `Dallas` would be the most efficient for your workload.
