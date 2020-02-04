@@ -22,7 +22,6 @@ IBM Cloud Transit Gateway (Beta)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [CLI reference](https://{DomainName}/docs/tg-cli-plugin?topic=tg-cli-plugin-transit-gateway-cli)
     iam.md
     {: .navgroup-end}
 
