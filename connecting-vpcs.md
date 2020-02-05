@@ -19,13 +19,13 @@ subcollection: transit-gateway
 {:note: .note}
 {:important: .important}
 {:download: .download}
-{:external: target="_blank_" .external}
+{:external: target="_blank" .external}
 {:term: .term}
 
 # Connecting VPCs in the same region
 {: #connecting-vpcs-same-region}
 
-Using {{site.data.keyword.tg_full_notm}}, you can connect two or more IBM Cloud Virtual Private Clouds (VPCs) in the same region if they are associated with your IBM Cloud account in the IBM Cloud private network.
+Using {{site.data.keyword.tg_full_notm}}, you can connect two or more IBM Cloud Virtual Private Clouds (VPCs) in the same region if they are in the same IBM Cloud account.
 {: shortdesc}
 
 All subnets of the VPC and classic network will be connected to the transit gateway, so it's important that the subnets do not overlap. When creating VPCs that are intended to be connected to a transit gateway, make sure to create the VPCs with non-overlapping prefixes and unique subnets.
@@ -33,10 +33,10 @@ All subnets of the VPC and classic network will be connected to the transit gate
 
 To connect your VPCs in the same region to your transit gateway, perform the following procedure:
 
-1. From your browser, open the [IBM Cloud console](https://cloud.ibm.com/catalog){: external} and log in to your account.
+1. From your browser, open the [IBM Cloud catalog](https://cloud.ibm.com/catalog){: external} and log in to your account.
 2. Select **Networking** from the left, then click the Transit Gateway tile to bring up the transit gateway ordering page.
 
-  You can also access the ordering page from the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Hybrid Networking** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
+  You can also access the ordering page from the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Hybrid Networking** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
   {: note}
 
 3. From the ordering page, enter a name for the transit gateway and select your resource group. You can select a resource group from the list, or keep the default selection.

@@ -28,9 +28,9 @@ subcollection: transit-gateway
 These frequently asked questions can help you when working with the {{site.data.keyword.tg_full}}.
 {: shortdesc}
 
-## What are the differences between IBM Cloud Transit Gatewayand IBM Cloud Direct Link?
+## What are the differences between IBM Cloud Transit Gateway and IBM Cloud Direct Link?
 
-The [IBM Cloud™ Direct Link](/docs/infrastructure/direct-link?topic=direct-link-overview-of-direct-link-offerings) offerings provide connectivity from an external source into a customer's IBM Cloud private network. The {{site.data.keyword.tg_full_notm}}offering provides interconnectivity between resources within a customer's IBM Cloud private network.
+The [IBM Cloud™ Direct Link](/docs/infrastructure/direct-link?topic=direct-link-overview-of-direct-link-offerings) offerings provide connectivity from an external source into a customer's IBM Cloud private network. The {{site.data.keyword.tg_full_notm}} offering provides interconnectivity between resources within a customer's IBM Cloud private network.
 
 ## Can I create more than one transit gateway in my account?
 
@@ -46,7 +46,7 @@ Although [classic access VPCs](/docs/vpc?topic=vpc-setting-up-access-to-classic-
 
 ## How can "VPC Peering" be achieved on IBM Cloud?
 
-{{site.data.keyword.tg_full_notm}}can be used to connect multiple VPCs to each other. As such, connecting/peering two VPCs is just a part of the functionality that the transit gateway service offers. IBM Cloud does not provide a standalone VPC peering service or capability.
+{{site.data.keyword.tg_full_notm}} can be used to connect multiple VPCs to each other. As such, connecting/peering two VPCs is just a part of the functionality that the transit gateway service offers. IBM Cloud does not provide a standalone VPC peering service or capability.
 
 ## Can I connect a VPN or direct link to a transit gateway?
 
@@ -54,8 +54,8 @@ These capabilities do not exist today. However, they might be offered in the fut
 
 ## Can I create a global transit network using the IBM Cloud Transit Gateway?
 
-{{site.data.keyword.tg_full_notm}}enables standard IP routing between networks (for example, global VPCs) that are connected to it. Additional functionality can be added by configuring IBM or third-party virtual network functions, such as VPN, NAT, and firewalls, within one or more of the interconnected networks (for instance, using the "Transit VPC" concept).
+{{site.data.keyword.tg_full_notm}} enables standard IP routing between networks (for example, global VPCs) that are connected to it. Additional functionality can be added by configuring IBM or third-party virtual network functions, such as VPN, NAT, and firewalls, within one or more of the interconnected networks (for instance, using the "Transit VPC" concept).
 
 ## What is next for IBM Cloud Transit Gateway?
 
-{{site.data.keyword.tg_full_notm}}will include monitoring and activity tracking capabilities, as well as the ability to connect networks across different IBM Cloud accounts.
+{{site.data.keyword.tg_full_notm}} will include monitoring and activity tracking capabilities, as well as the ability to connect networks across different IBM Cloud accounts.

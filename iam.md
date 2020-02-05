@@ -42,7 +42,7 @@ Transit gateway supports Reader, Writer, and Manager service-access roles.
 ## Platform-access roles
 {: #platform-access-roles}
 
-{{site.data.keyword.tg_full_notm}}supports the Administrator platform-access role.
+{{site.data.keyword.tg_full_notm}} supports the Administrator platform-access role.
 
 | Role | Description of Actions | Example Action
 |---|---|---|

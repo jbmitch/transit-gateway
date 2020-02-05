@@ -19,13 +19,13 @@ subcollection: transit-gateway
 {:note: .note}
 {:important: .important}
 {:download: .download}
-{:external: target="_blank_" .external}
+{:external: target="_blank" .external}
 {:term: .term}
 
 # Connecting VPCs to your IBM Cloud classic infrastructure
 {: #connecting-classic-infrastructure-vpcs}
 
-To use the {{site.data.keyword.tg_full}} capability with the IBM Cloud classic infrastructure, you must have at least one IBM Cloud Virtual Private Cloud (VPC) associated with your IBM Cloud account in the IBM Cloud private network, and your classic account must be linked to your IBM Cloud account.
+To use the {{site.data.keyword.tg_full}} capability with the IBM Cloud classic infrastructure, you must have at least one IBM Cloud Virtual Private Cloud (VPC) in your IBM Cloud account and your classic account must be linked to your IBM Cloud account.
 {: shortdesc}
 
 Refer to [Linking IBMid accounts](/docs/account?topic=account-unifyingaccounts) for more information on linking your classic account.
@@ -33,7 +33,7 @@ Refer to [Linking IBMid accounts](/docs/account?topic=account-unifyingaccounts) 
 You can set up access to your IBM Cloud classic infrastructure with only one transit gateway in your IBM Cloud account.
 {: tip}
 
-All subnets of the VPC and classic network will be connected to your transit gateway, so it's important that the subnets do not overlap. When creating VPCs that are intended to be connected to a transit gateway, create them with non-overlapping prefixes and unique subnets. All subnets in a VPC are shared in the classic infrastructure VRF, which uses IP addresses in the `10.0.0.0/8` space. To avoid IP address conflicts, do not use IP addresses in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks. To view a list of your classic infrastructure subnets, see [View all subnets](/docs/infrastructure/subnets?topic=subnets-view-all-subnets){: external}.
+All subnets of the VPC and classic network will be connected to your transit gateway, so it's important that the subnets do not overlap. When creating VPCs that are intended to be connected to a transit gateway, create them with non-overlapping prefixes and unique subnets. All subnets in a VPC are shared in the classic infrastructure VRF, which uses IP addresses in the `10.0.0.0/8` space. To avoid IP address conflicts, do not use IP addresses in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks. To view a list of your classic infrastructure subnets, see [View all subnets](/docs/infrastructure/subnets?topic=subnets-view-all-subnets).
 {: tip}
 
 In order to use the transit gateway capability with your classic infrastructure, your account must be enabled for virtual routing and forwarding (VRF). For information on enabling your account for VRF, refer to [Enabling VRF and service endpoints](/docs/account?topic=account-vrf-service-endpoint).
@@ -41,10 +41,10 @@ In order to use the transit gateway capability with your classic infrastructure,
 
 To connect your VPCs to your IBM Cloud classic infrastructure using a transit gateway, perform the following procedure:
 
-1. From your browser, open the [IBM Cloud console](https://cloud.ibm.com/catalog){: external} and log in to your account.
+1. From your browser, open the [IBM Cloud catalog](https://cloud.ibm.com/catalog){: external} and log in to your account.
 2. Select **Networking** from the left, then click the Transit Gateway tile to bring up the transit gateway ordering page.
 
-You can also access the ordering page from the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Hybrid Networking** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
+You can also access the ordering page from the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Hybrid Networking** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
 {: note}
 
 3. From the ordering page, enter a name for the transit gateway, and select your resource group. You can choose a resource group from the list, or keep the default selection.

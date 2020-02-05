@@ -49,7 +49,7 @@ A [classic access VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastr
 
 You can use the command-line interface (CLI), API, or the IBM Cloud console to create and manage your transit gateway.
 
-For the Beta, only the IBM Cloud console is currently supported for managing your transit gateway.
+For the Beta, both the IBM Cloud console and the CLI are supported for managing your transit gateways.
 {: note}
 
 

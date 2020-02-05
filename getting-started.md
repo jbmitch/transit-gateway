@@ -19,7 +19,7 @@ subcollection: transit-gateway
 {:note: .note}
 {:important: .important}
 {:download: .download}
-{:external: target="_blank_" .external}
+{:external: target="_blank" .external}
 {:term: .term}
 
 # Getting started with IBM Cloud Transit Gateway (Beta)
@@ -39,7 +39,7 @@ To get started using {{site.data.keyword.tg_full_notm}}:
 1. From your browser, open the [IBM Cloud console](https://cloud.ibm.com/catalog){: external} and log in to your account.
 2. Select **Networking** from the left, then click the Transit Gateway tile.
 
-You can also access the ordering page from the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Hybrid Networking** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
+You can also access the ordering page from the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Hybrid Networking** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
 {: note}
 
 You can configure several types of connections with transit gateway. Refer to the following "How To" topics for detailed information.
@@ -74,4 +74,4 @@ If you plan to use the gateway to connect resources between different MZRs, then
 
 ![Global routing](images/2-aboutGlobalRoutingExample.png "Global routing"){: caption="Figure 2. Simple global routing example" caption-side="bottom"}
 
-If you need more help getting started with {{site.data.keyword.tg_full_notm}}, you can open an IBM Support case through the IBM Cloud console, or contact your IBM Cloud Sales representative.
+If you need more help getting started with {{site.data.keyword.tg_full_notm}}, you can open an IBM Support case through the IBM Cloud console, or contact your IBM Cloud sales representative.

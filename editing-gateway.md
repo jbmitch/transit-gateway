@@ -32,7 +32,7 @@ You can add or delete connections from your {{site.data.keyword.tg_full}} using 
 {: #deleting-connections}
 
 To delete connections from your transit gateway:
-1. From your browser, open the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
+1. From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Hybrid Networking** to bring up the Direct Link page.
 3. Click **Transit Gateway** from the left navigation panel.
 4. Click the name of the transit gateway you want to edit.
@@ -47,7 +47,7 @@ To delete connections from your transit gateway:
 {: #adding-connections}
 
 To add connections to your transit gateway:
-1. From your browser, open the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
+1. From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Hybrid Networking** to bring up the Direct Link page.
 3. Click **Transit Gateway** from the left navigation panel.
 4. Click the name of the transit gateway you want to edit.
@@ -67,7 +67,7 @@ You can now choose and configure the specific network connections that you want 
 {: #change-configuration}
 
 To change your transit gateway configuration:
-1. From your browser, open the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
+1. From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Hybrid Networking** to bring up the Direct Link page.
 3. Click **Transit Gateway** from the left navigation panel.
 4. Click the name of the transit gateway you want edit.
