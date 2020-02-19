@@ -21,19 +21,23 @@ subcollection: transit-gateway
 {:download: .download}
 {:external: target="_blank" .external}
 {:term: .term}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
-# Deleting your transit gateways
+# Deleting a transit gateway
 {: #delete-gateway}
+{: help}
+{: support}
 
-You can delete your {{site.data.keyword.tg_full}} using this procedure.
+To delete an {{site.data.keyword.tg_full}}, follow these steps.
 {: shortdesc}
 
-1. From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
-2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Hybrid Networking** to bring up the Direct Link page.
-3. Click **Transit Gateway** from the left navigation panel.
-4. Click the name of the transit gateway you want edit.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
+2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page, then click **Hybrid Networking**.
+3. Click **Transit Gateway**.
+4. Click the name of the transit gateway you want to delete.
 
-  If you are in the expanded view, click on **View Full Details**.
+  If you are in the expanded view, click **View details**.
   {: tip}
 
 5. Ensure the transit gateway has no attached connections - if it does, delete all connections.

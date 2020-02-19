@@ -24,7 +24,7 @@ subcollection: transit-gateway
 # Using IAM permissions with IBM Cloud Transit Gateway
 {: #iam}
 
-{{site.data.keyword.tg_full}} uses IBM Cloud Identity and Access Management (IAM) platform access roles and IAM service access roles to manage access to the service's resources. IAM access roles allow account administrators to assign different levels of permission for calling the service's APIs and accessing the UI. The following tables provide example actions that you can take against the {{site.data.keyword.tg_full_notm}}service and its resources depending on a user's assigned roles.
+{{site.data.keyword.tg_full}} uses IBM Cloud Identity and Access Management (IAM) platform access roles and IAM service access roles to manage access to the service's resources. IAM access roles allow account administrators to assign different levels of permission for calling the service's APIs and accessing the UI. The following tables provide example actions that you can take against the {{site.data.keyword.tg_full_notm}} service and its resources depending on a user's assigned roles.
 
 ## Service-access roles
 {: #service-access-roles}
@@ -46,5 +46,5 @@ Transit gateway supports Reader, Writer, and Manager service-access roles.
 
 | Role | Description of Actions | Example Action
 |---|---|---|
-| Administrator | Allows a user to assign {{site.data.keyword.tg_full_notm}}IAM access policies to other users. | Update user access policies for the service. |                 |
+| Administrator | Allows a user to assign {{site.data.keyword.tg_full_notm}} IAM access policies to other users. | Update user access policies for the service. |                 |
 {: caption="Table 2. IAM platform-access user role and actions" caption-side="top"}

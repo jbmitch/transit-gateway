@@ -6,27 +6,26 @@ IBM Cloud Transit Gateway (Beta)
 
     {: .navgroup id="learn"}
     getting-started.md
-    about.md
+    about.md    
+    helpful-tips.md
 
     {: .topicgroup}
-    Related Links
+    Related links
         [Virtual Private Cloud](/vpc/vpc-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     connecting-vpcs.md
-    connecting-vpcs-different.md
-    connecting-vpcs-classic-infrastructure.md
     editing-gateway.md
     deleting-gateway.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     iam.md
+    at-events-docs-tg.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    helpful-tips.md
     faqs.md
     getting-help.md
     {: .navgroup-end}

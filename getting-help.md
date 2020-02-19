@@ -24,5 +24,5 @@ subcollection: transit-gateway
 # Getting help and support
 {: #getting-help-and-support}
 
-Thank you for participating in the {{site.data.keyword.tg_full}}. Currently, the fastest path to help and support is by contacting your IBM sales representative. Other support options will be made available in the future.
+Thank you for participating in the {{site.data.keyword.tg_full}} beta release. Currently, the fastest path to get help and support is by contacting your IBM sales representative.
 {: shortdesc}
