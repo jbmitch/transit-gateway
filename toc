@@ -22,7 +22,6 @@ IBM Cloud Transit Gateway (Beta)
 
     {: .navgroup id="reference"}
     iam.md
-    tgw-ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
