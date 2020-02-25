@@ -8,7 +8,6 @@ IBM Cloud Transit Gateway (Beta)
     getting-started.md
     about.md    
     helpful-tips.md
-    tg-pricing.md
 
     {: .topicgroup}
     Related links
