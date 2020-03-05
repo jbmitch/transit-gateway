@@ -33,13 +33,13 @@ subcollection: transit-gateway
 The {{site.data.keyword.tg_full}} Beta is only available to whitelisted users. Contact your IBM sales representative if you are interested in getting early access.
 {: preview}
 
-Use {{site.data.keyword.tg_full_notm}} to securely connect {{site.data.keyword.cloud_notm}} Classic and Virtual Private Cloud (VPC) infrastructures worldwide, keeping traffic within the {{site.data.keyword.cloud_notm}} network. With Transit Gateway, organizations can define and control communications between resources on the {{site.data.keyword.cloud_notm}} network, providing dynamic scalability, high availability, and secure, in-transit data between {{site.data.keyword.cloud_notm}} data centers. These transit gateways are commonly implemented to support hybrid workloads, frequent data transfers, private workloads, or to ease administration of the {{site.data.keyword.cloud_notm}} environment.
+Use {{site.data.keyword.tg_full_notm}} to securely connect {{site.data.keyword.cloud_notm}} classic and Virtual Private Cloud (VPC) infrastructures worldwide, keeping traffic within the {{site.data.keyword.cloud_notm}} network. With Transit Gateway, organizations can define and control communications between resources on the {{site.data.keyword.cloud_notm}} network, providing dynamic scalability, high availability, and secure, in-transit data between {{site.data.keyword.cloud_notm}} data centers. These transit gateways are commonly implemented to support hybrid workloads, frequent data transfers, private workloads, or to ease administration of the {{site.data.keyword.cloud_notm}} environment.
 {: shortdesc}
 
 You can configure several types of connections with Transit Gateway:
 
 * Connect VPCs in the same region (Local routing)
-* Connect VPC in different regions (Global routing)
+* Connect VPCs in different regions (Global routing)
 * Connect VPCs to your IBM Cloud classic infrastructure
 
 To get started using {{site.data.keyword.tg_full_notm}}:

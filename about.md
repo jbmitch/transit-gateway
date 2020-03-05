@@ -29,10 +29,7 @@ subcollection: transit-gateway
 
 As the number of your VPCs grow, you need an easy way to manage the interconnection between these resources, both locally and globally. {{site.data.keyword.tg_full_notm}} is designed specifically for this purpose.
 
-With {{site.data.keyword.tg_full_notm}}, you can create single or multiple transit gateways to connect VPCs together. You can also connect your {{site.data.keyword.cloud_notm}} classic infrastructure to a transit gateway to provide seamless communication. Any new network you connect to a transit gateway is then automatically made available to every other network connected to it. This makes it easy to scale your network as you grow.
-
-A [classic access VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) cannot be connected directly to a transit gateway. To connect the classic access VPC resources, select a **Classic infrastructure** network connection when ordering, and then all the resources in your classic access VPC are automatically connected.
-{: important}
+With {{site.data.keyword.tg_full_notm}}, you can create single or multiple transit gateways to connect VPCs together. You can also connect your {{site.data.keyword.cloud_notm}} classic infrastructure to a transit gateway to provide seamless communication. Any new network you connect to a transit gateway is then automatically made available to every other network connected to it. This makes it easy to scale your network as it grows.
 
 ## Overview of features
 {: #feature-overview}
@@ -42,12 +39,12 @@ A [classic access VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastr
 ### Routing
 {: #routing}
 
-{{site.data.keyword.tg_full_notm}} supports local and global routing between VPCs and the {{site.data.keyword.cloud_notm}} classic infrastructure. It is optimized for performance and security, where all routed traffic passes through the {{site.data.keyword.cloud_notm}} infrastructure. Traffic stays within the {{site.data.keyword.cloud_notm}} network and does not traverse the public internet. Transit gateway allows customers greater flexibility, redundancy, and speed in scaling their workloads, as well as connecting isolated networks running on {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.tg_full_notm}} supports local and global routing between VPCs and the {{site.data.keyword.cloud_notm}} classic infrastructure. It is optimized for performance and security, where all routed traffic passes through the {{site.data.keyword.cloud_notm}} infrastructure. Traffic stays within the {{site.data.keyword.cloud_notm}} network and does not traverse the public internet. Transit Gateway allows customers greater flexibility, redundancy, and speed in scaling their workloads, as well as connecting isolated networks running on {{site.data.keyword.cloud_notm}}.
 
 ### Management
 {: #management}
 
-You can use the command-line interface (CLI), API, or the {{site.data.keyword.cloud_notm}} console to create and manage your transit gateway.
+You can use the command-line interface (CLI), API, or the {{site.data.keyword.cloud_notm}} console to create and manage your transit gateways.
 
 For this Beta release, both the {{site.data.keyword.cloud_notm}} console and the CLI are supported for managing your transit gateways.
 {: note}

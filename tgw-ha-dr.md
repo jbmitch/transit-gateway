@@ -57,12 +57,10 @@ The following steps illustrate using the IBM Cloud CLI, but you can also use the
 
 Preserve a list of all of your transit gateways and their connections. To do so, perform the following procedure:
 
-  1. Use the `ibmcloud tg gateways` command to list details about all your transit gateways. Save this output.
-  2. For each gateway, use the `ibmcloud tg connections GATEWAY_ID` method to list information about its connections. Save this output.
+1. Use the `ibmcloud tg gateways` command to list details about all your transit gateways. Save this output.
+2. For each gateway, use the `ibmcloud tg connections GATEWAY_ID` method to list information about its connections. Save this output.
 
-  For more information, see the [Transit Gateway CLI reference](/docs/infrastructure/transit-gateway?topic=tg-cli-plugin-transit-gateway-cli).
-  {: tip}
+For more information, see the [Transit Gateway CLI reference](/docs/infrastructure/transit-gateway?topic=tg-cli-plugin-transit-gateway-cli).
+{: tip}
 
-Preserving the information returned from these commands will help you recover for a potential failure as quickly as possible.
-
-In the event of a failure, this information allows you to use the `ibmcloud tg gateway-create` and `ibmcloud tg connection-create` commands needed to recreate your transit gateways and connections, using the CLI reference as your guide. Again, note that you can perform the equivalent tasks using the IBM Cloud console or programmatic APIs, as well.
+Saving the information returned from these commands will help you recover from a failure quickly. In the event of a failure, use the saved information and run the `ibmcloud tg gateway-create` and `ibmcloud tg connection-create` commands to recreate your transit gateways and connections. You can perform the equivalent tasks using the IBM Cloud console or APIs.
