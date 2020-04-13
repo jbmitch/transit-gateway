@@ -2,7 +2,7 @@
 
 copyright:
   years: 20120
-lastupdated: "2020-01-28"
+lastupdated: "2020-03-25"
 
 keywords: help, support, contact, troubleshooting, transit, gateway
 
@@ -11,7 +11,7 @@ subcollection: transit-gateway
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank_"}
+{:new_window: target="_blank"}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
@@ -24,5 +24,7 @@ subcollection: transit-gateway
 # Getting help and support
 {: #getting-help-and-support}
 
-Thank you for participating in the {{site.data.keyword.tg_full}} beta release. Currently, the fastest path to get help and support is by contacting your IBM sales representative.
-{: shortdesc}
+If you have problems or questions when you use {{site.data.keyword.tg_full}}, you can search for information or ask questions by using [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external}. Post your question then and tag it with **transit-gateway** and **ibm-cloud**.
+{:shortdesc}
+
+For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
