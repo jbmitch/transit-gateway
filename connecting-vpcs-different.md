@@ -36,7 +36,7 @@ To connect your VPCs in different regions to your transit gateway, perform the f
 1. From your browser, open the [IBM Cloud catalog](https://cloud.ibm.com/catalog){: external} and log in to your account.
 2. Select **Networking** from the left, then click the Transit Gateway tile to bring up the transit gateway ordering page.
 
-  You can also access the ordering page from the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Hybrid Networking** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
+  You can also access the ordering page from the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then selecting **Interconnectivity** to bring up the Direct Link page. From there, select **Transit Gateway** in the left navigation panel, then click the **Order Transit Gateway** button.
   {: note}
 
 3. From the ordering page, enter a name for the transit gateway and select your resource group. You can select a resource group from the list, or keep the default selection.

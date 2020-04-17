@@ -33,7 +33,7 @@ You can add or delete connections from your {{site.data.keyword.tg_full}} using 
 
 To add a connection to a transit gateway:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
-2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Hybrid Networking**.
+2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity**.
 3. Click **Transit Gateway** from the left navigation pane.
 4. Click the name of the transit gateway where you want to add a connection.
 
@@ -49,7 +49,7 @@ You can now choose and configure the specific network connections that you want 
 
 To delete a connection from a transit gateway:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
-2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Hybrid Networking**.
+2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity**.
 3. Click **Transit Gateway** from the left navigation pane.
 4. Click the name of the transit gateway where you want to delete a connection.
 
@@ -64,7 +64,7 @@ To delete a connection from a transit gateway:
 
 To change your transit gateway configuration:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
-2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Hybrid Networking**.
+2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity**.
 3. Click **Transit Gateway** from the left navigation pane.
 4. Click the name of the transit gateway you want to edit.
 

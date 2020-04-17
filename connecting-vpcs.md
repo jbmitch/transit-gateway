@@ -36,7 +36,7 @@ To create an {{site.data.keyword.tg_full_notm}}, follow these steps.
 2. From your browser, open the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} and log in to your account.
 3. Select **Networking** in the navigation pane, then click the Transit Gateway tile.
 
-  Alternatively, you can access the ordering page from the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page. Select **Hybrid Networking** > **Transit Gateway** and then click the **Order Transit Gateway** button.
+  Alternatively, you can access the ordering page from the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page. Select **Interconnectivity** > **Transit Gateway** and then click the **Order Transit Gateway** button.
   {: tip}
 
 4. From the ordering page, enter a name for the transit gateway and select a resource group. You can select a resource group from the list, or keep the default selection.

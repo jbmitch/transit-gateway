@@ -33,7 +33,7 @@ To delete an {{site.data.keyword.tg_full}}, follow these steps.
 {: shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
-2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page, then click **Hybrid Networking**.
+2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page, then click **Interconnectivity**.
 3. Click **Transit Gateway**.
 4. Click the name of the transit gateway you want to delete.
 
