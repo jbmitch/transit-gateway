@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-07"
+lastupdated: "2020-04-16"
 
 keywords: transit, gateway, about, features, overview
 
@@ -24,12 +24,10 @@ subcollection: transit-gateway
 # About IBM Cloud Transit Gateway
 {: #about}
 
-{{site.data.keyword.tg_full}} is a service that enables you to connect {{site.data.keyword.cloud_notm}} Virtual Private Clouds (VPCs) and {{site.data.keyword.cloud_notm}} classic infrastructure to a single gateway.
+As the number of your Virtual Private Clouds (VPCs) grow, you need an easy way to manage the interconnection between these resources, both locally and globally. {{site.data.keyword.tg_full}} is designed specifically for this purpose.
 {: shortdesc}
 
-As the number of your VPCs grow, you need an easy way to manage the interconnection between these resources, both locally and globally. {{site.data.keyword.tg_full_notm}} is designed specifically for this purpose.
-
-With {{site.data.keyword.tg_full_notm}}, you can create single or multiple transit gateways to connect VPCs together. You can also connect your {{site.data.keyword.cloud_notm}} classic infrastructure to a transit gateway to provide seamless communication. Any new network you connect to a transit gateway is then automatically made available to every other network connected to it. This makes it easy to scale your network as it grows.
+With {{site.data.keyword.tg_full_notm}}, you can create a single or multiple transit gateways to connect VPCs together. You can also connect your {{site.data.keyword.cloud_notm}} classic infrastructure to a transit gateway to provide seamless communication with classic infrastructure resources. Any new network you connect to a transit gateway is then automatically made available to every other network connected to it. This makes it easy to scale your network as it grows.
 
 ## Overview of features
 {: #feature-overview}
@@ -39,16 +37,37 @@ With {{site.data.keyword.tg_full_notm}}, you can create single or multiple trans
 ### Routing
 {: #routing}
 
-{{site.data.keyword.tg_full_notm}} supports local and global routing between VPCs and the {{site.data.keyword.cloud_notm}} classic infrastructure. It is optimized for performance and security, where all routed traffic passes through the {{site.data.keyword.cloud_notm}} infrastructure. Traffic stays within the {{site.data.keyword.cloud_notm}} network and does not traverse the public internet. Transit Gateway allows customers greater flexibility, redundancy, and speed in scaling their workloads, as well as connecting isolated networks running on {{site.data.keyword.cloud_notm}}.
+{{site.data.keyword.tg_full_notm}} supports local and global routing between VPCs and the {{site.data.keyword.cloud_notm}} Classic infrastructure. All routing options remain within the private {{site.data.keyword.cloud_notm}} infrastructure without operating on the public internet, and are optimized for performance. {{site.data.keyword.tg_full_notm}} allows customers greater flexibility, redundancy, and speed in scaling their workloads, as well as in connecting isolated networks running on {{site.data.keyword.cloud_notm}}.
 
-### Management
-{: #management}
+### Privacy
 
-You can use the command-line interface (CLI), API, or the {{site.data.keyword.cloud_notm}} console to create and manage your transit gateways.
+* Connections to and from an {{site.data.keyword.tg_full_notm}} on the IBM private network are not exposed to the public internet. This reduces public egress and VPN costs as well as reduces security threats.
 
-For this Beta release, both the {{site.data.keyword.cloud_notm}} console and the CLI are supported for managing your transit gateways.
+* {{site.data.keyword.tg_full_notm}} is a fully redundant, fault-tolerant service with no single point of failure within our 6 {{site.data.keyword.cloud_notm}} Multi-Zone Regions (MZR). Current {{site.data.keyword.cloud_notm}} MZRs are `us-south` (Dallas), `us-east` (Washington D.C.), `eu-gb` (London), `eu-de` (Frankfurt), `jp-tok` (Tokyo), and `au-syd` (Sydney).
+
+* {{site.data.keyword.tg_full_notm}} integrates with Identity and Access Management (IAM), letting you manage access to your transit gateway. Using IAM, you can create and manage [{{site.data.keyword.cloud_notm}} users and groups](/docs/transit-gateway?topic=transit-gateway-iam), as well as use permissions to allow or deny their access.
+
+## Connectivity patterns
+
+{{site.data.keyword.tg_full_notm}} enables you to connect {{site.data.keyword.cloud_notm}} VPCs to the transit gateway service, allowing you to build global networks across multiple VPCs and {{site.data.keyword.cloud_notm}} regions to keep up with your business needs. {{site.data.keyword.tg_full_notm}} works across both {{site.data.keyword.cloud_notm}} generation 1 and generation 2 VPCs as well as IBM classic networks.
+
+{{site.data.keyword.tg_full_notm}} can connect to classic networks located in any MZR, regardless of the location of the transit gateway or the routing type specified.
 {: note}
 
+Here are a few ways you can implement the {{site.data.keyword.tg_full_notm}} service.
 
-### Security
-{{site.data.keyword.tg_full_notm}} integrates with Identity and Access Management (IAM), letting you manage access to your transit gateway. Using IAM, you can create and manage [{{site.data.keyword.cloud_notm}} users and groups](/docs/transit-gateway?topic=transit-gateway-iam), as well as use permissions to allow or deny their access.
+### Use case 1: Connect two or more VPCs in the same MZR
+
+![Connect two or more VPCs in the same MZR](images/TGW_SameRegion.png "Connect two or more VPCs in the same MZR")
+
+### Use case 2: Connect two or more VPCs across multiple MZRs
+
+![Connect two or more VPCs across multiple MZRs](images/TGW_Multi-Multi.png "Connect two or more VPCs across multiple MZRs")
+
+### Use case 3: Connect to the IBM classic network and one or more VPCs in the same MZR
+
+![Connect to the IBM classic network and one or more VPCs in the same MZR](images/TGW_Classic.png "Connect an IBM classic network and one or more VPCs in the same MZR")
+
+### Use case 4: Connect an IBM classic network and VPCs to access all your resources across all MZRs
+
+![Connect to the IBM classic network and VPCs to access all your resources across all MZRs](images/twg_use_4.png "Connect an IBM classic network and VPCs to access all your resources across all MZRs")

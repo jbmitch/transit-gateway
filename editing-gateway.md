@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-01-28"
+lastupdated: "2020-04-16"
 
 keywords: transit, gateway, editing
 
@@ -11,7 +11,7 @@ subcollection: transit-gateway
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank_"}
+{:new_window: target="_blank"}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
@@ -19,19 +19,19 @@ subcollection: transit-gateway
 {:note: .note}
 {:important: .important}
 {:download: .download}
-{:external: target="_blank_" .external}
+{:external: target="_blank" .external}
 {:term: .term}
 
 # Managing transit gateways
 {: #edit-gateway}
 
-You can add or delete connections from your {{site.data.keyword.tg_full}} using the {{site.data.keyword.cloud_notm}} console.
+You can add, edit, or delete connections and edit your gateways from your {{site.data.keyword.tg_full}} using the {{site.data.keyword.cloud_notm}} console.
 {: shortdesc}
 
 ## Adding a connection
 {: #adding-connections}
 
-To add a connection to a transit gateway:
+To add a connection to a transit gateway, perform the following procedure:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity**.
 3. Click **Transit Gateway** from the left navigation pane.
@@ -44,10 +44,30 @@ To add a connection to a transit gateway:
 
 You can now choose and configure the specific network connections that you want to add to your transit gateway.
 
+![Add connections](images/addConnection.png "Adding connections")
+
+## Editing a connection
+{: #editing-connections}
+
+To edit a connection to a transit gateway, perform the following procedure:
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
+2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity**.
+3. Click **Transit Gateway** from the left navigation pane.
+4. Click the name of the transit gateway where you want to edit a connection.
+
+  If you are in the expanded view, click **View details**.
+  {: tip}
+
+5. From the Connections page, click the Options menu icon ![Options icon](../../icons/actions-icon-vertical.svg) next to the connection you want to edit and select **Edit**.
+
+From here you can change the name of the selected network connection.
+
+![Edit connections](images/7-editingGlobaltoLocalTG.png "Editing connections")
+
 ## Deleting a connection
 {: #deleting-connections}
 
-To delete a connection from a transit gateway:
+To delete a connection from a transit gateway, perform the following procedure:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity**.
 3. Click **Transit Gateway** from the left navigation pane.
@@ -56,13 +76,14 @@ To delete a connection from a transit gateway:
   If you are in the expanded view, click **View details**.
   {: tip}
 
-5. To delete a connection, click the trashcan icon ![Trashcan icon](../../icons/icon_trash.svg) next to its name.
-6. Confirm that you want to delete the connection.
+5. From the Connections page, click the Options menu icon ![Options icon](../../icons/actions-icon-vertical.svg) next to the connection you want to delete and select **Delete**.
+
+![Delete connections with the Options menu](images/deleteConnection.png "Delete connections with the Options menu")
 
 ## Changing your configuration
 {: #change-configuration}
 
-To change your transit gateway configuration:
+To change your transit gateway configuration, perform the following procedure:
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} and log in to your account.
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the upper left, then click **Interconnectivity**.
 3. Click **Transit Gateway** from the left navigation pane.
@@ -75,7 +96,10 @@ To change your transit gateway configuration:
 
 From here you can change the gateway's name, as well as its routing type (Local or Global).
 
-![Editing your configuration](images/7-editingGlobaltoLocalTG.png "Editing your configuration")
+To change a transit gateway's routing type from Global to Local, you must delete any connections that are not local to the transit gateway's location.
+{: tip}
 
-To change a transit gateway's routing type from Global to Local, you must delete any connections that are not local to the transit gateway's location. 
+When changing from Local to Global routing, you will be charged for all associated global connections.
 {: important}
+
+![Editing your configuration](images/editConnection.png "Editing your configuration")

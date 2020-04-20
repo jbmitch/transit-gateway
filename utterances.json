@@ -1,0 +1,61 @@
+{
+ "differences": [
+   "differences between IBM Cloud Transit Gateway and IBM Cloud Direct Link",
+   "differences between transit gateway and direct link",
+   "transit gateway and direct link differences",
+   "are direct link and transit gateway the same",
+   "direct link and transit gateway different",
+   "direct link and transit gateway differ"
+   ],
+  "gateways": [
+    "create more than one transit gateway",
+    "have multiple transit gateway appliances",
+    "multiple transit gateways per account",
+    "more than one transit gateway in this account",
+    "have 2 transit gateways in my account"
+  ],
+  "connections": [
+    "create more than two connections for a given transit gateway",
+    "create more than two connection for transit gateway",
+    "have multiple transit gateway appliance connections",
+    "multiple transit gateway connection",
+    "more than two transit gateway connections",
+    "have 2 transit gateway connections at once"
+ ],
+  "classic-resources": [
+    "connect to classic resources in VPC using transit gateway",
+    "access my classic VPC resources using transit gateway",
+    "attach classic VPCs to a transit gateway",
+    "access classic VPCs using a transit gateway",
+    "connection to classic resources using transit gateway"
+ ],
+  "vpc-peering": [
+    "can VPC Peering be achieved",
+    "how to connect two VPCs together",
+    "connect multiple VPCs to each other",
+    "peering multiple VPCs together",
+    "standalone VPC peering "
+  ],
+   "vpn": [
+     "connect a VPN to transit gateway",
+     "connect direct link to transit gateway",
+     "transit gateway and VPN connection",
+     "transit gateway and direct link connection",
+     "add a VPN to tansit gateway",
+     "attach direct link connection to transit gateway"
+  ],
+   "global-transit": [    
+     "create a global transit network using the IBM Cloud Transit Gateway",
+     "create a global transit network with Transit Gateway",
+     "Transit Gateway enable standard IP routing between networks",
+     "make a global transit network with transit gateway",
+     "make global transit network using transit gateways"
+  ]
+}  
+
+     
+     
+     
+
+
+

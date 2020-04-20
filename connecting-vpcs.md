@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-07"
+lastupdated: "2020-04-16"
 
 keywords: transit, gateway, connecting, vpc, region, order
 
@@ -11,7 +11,7 @@ subcollection: transit-gateway
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank_"}
+{:new_window: target="_blank"}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
@@ -19,47 +19,58 @@ subcollection: transit-gateway
 {:note: .note}
 {:important: .important}
 {:download: .download}
-{:external: target="_blank" .external}
+{:external: target="_blank_" .external}
 {:term: .term}
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Ordering an IBM Cloud Transit Gateway
+# Ordering IBM Cloud Transit Gateway
 {: #ordering-transit-gateway}
-{: help} 
+{: help}
 {: support}
 
-To create an {{site.data.keyword.tg_full_notm}}, follow these steps.
+To get started using {{site.data.keyword.tg_full_notm}}, follow these steps:
 {: shortdesc}
 
 1. Review requirements and configuration considerations in [Planning for Transit Gateway](/docs/transit-gateway?topic=transit-gateway-helpful-tips).
 2. From your browser, open the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} and log in to your account.
 3. Select **Networking** in the navigation pane, then click the Transit Gateway tile.
 
-  Alternatively, you can access the ordering page from the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page. Select **Interconnectivity** > **Transit Gateway** and then click the **Order Transit Gateway** button.
+  You can also access the ordering page from the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){:external} by selecting the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) on the upper left of the page. Then select **Interconnectivity** > **Transit Gateway** and click the **Create Transit Gateway** button.
   {: tip}
 
+  The ordering page displays.
+
+  ![Transit gateway ordering page](images/tg-ordering.png "Transit gateway ordering page")
+
 4. From the ordering page, enter a name for the transit gateway and select a resource group. You can select a resource group from the list, or keep the default selection.
+
 5. Choose a routing option:
 
-   * Select **Local routing** if you want this gateway to only connect VPCs in the same [Multi-Zone Region (MZR)](#x9774820){: term}.
-   * Select **Global routing** if you want this gateway to connect to VPCs in different regions.
+   * Select **Local routing** if you want your transit gateway to only connect VPCs in the same [Multi-Zone Region (MZR)](/docs/overview?topic=overview-locations#mzr-table).
+   * Select **Global routing** if you want your transit gateway to connect to VPCs in different regions.
 
-   You can upgrade routing options at a later point, if your needs change. Pricing is changed accordingly.
+   You can upgrade routing options at a later point if your needs change. Pricing is changed accordingly.
    {: note}
 
-6. Select a location. If you selected local routing, data centers within the MZR are shown. For global routing, all data centers are accessible.
+   Remember that all of your classic resources across MZRs can be accessed regardless of routing choice.
+   {: tip}
+
+6. Select the location to provision your transit gateway in. If you are using local routing, the location chosen will limit you to connect VPCs located in that region only. If you are using global routing, the location chosen will affect the price for data transfer, so chose the region closest to the resources you need connected.
 
 7. You can add connections to your transit gateway now or after it has been provisioned.
 
   To add them now, select the network connection to be attached to the transit gateway, and then type a name for the connection. To add multiple network connections to the transit gateway, click **Add connection**.
 
-  To add them later, refer to [Adding a connection](/docs/infrastructure/transit-gateway?topic=transit-gateway-edit-gateway#adding-connections).
+  To add them later, refer to [Adding a connection](/docs/transit-gateway?topic=transit-gateway-edit-gateway#adding-connections).
 
   You can add the following connection types to your gateway:
 
    * **VPC** networks can contain either first or second generation compute resources, allowing you to connect to your account’s VPC resources.
-   * **Classic Infrastructure** networks allow you to connect to IBM Cloud classic resources. Only one classic infrastructure connection is allowed per transit gateway.
+   * **Classic Infrastructure** networks allow you to connect to IBM Cloud classic resources. Only one classic infrastructure connection is allowed per account.
+
+  All subnets of the VPC or classic network will be connected to the transit gateway. To ensure successful connectivity between VPCs, when creating VPCs that are intended to be interconnected using a transit gateway, make sure to create the VPCs with non-overlapping prefixes and unique subnets. To ensure successful connectivity with the classic infrastructure, do not use IP addresses for your VPCs in the `10.0.0.0/14`, `10.200.0.0/14`, `10.198.0.0/15`, and `10.254.0.0/16` blocks.
+  {: important}
 
 8. **View Terms** on the right of the page.
-9. Click **Create** to complete your order. You can request assistance from the IBM Cloud Sales team at any time.   
+9. Click **Create** to complete your order.
