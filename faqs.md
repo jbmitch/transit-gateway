@@ -37,6 +37,7 @@ These frequently asked questions can help you when working with the {{site.data.
 [IBM Cloud™ Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl) offerings provide connectivity from an external source into a customer's {{site.data.keyword.cloud_notm}} private network. While, {{site.data.keyword.tg_full_notm}} provides connectivity between resources within a customer's {{site.data.keyword.cloud_notm}} private network.
 
 ## If I connect a classic connection to a transit gateway provisioned with local routing, does that mean I can only communicate with classic infrastructure resources that are in the same location as the transit gateway?
+{: #communicate-same-resources}
 A classic connection allows you to communicate with all of your global classic infrastructure resources across MZRs, even if it is connected to a transit gateway provisioned with local routing.
 
 The routing option you choose for a transit gateway only determines what VPCs you can connect to it - local routing restricts you to connecting VPCs in the same MZR as the transit gateway, while global routing allows you to connect any VPC across the MZRs. Pick the routing option that is right for your applications - pricing is changed accordingly.
@@ -63,21 +64,21 @@ You can connect multiple VPCs in the same region to a single transit gateway wit
 You can connect any two or more VPCs (Gen 1 or Gen 2) using a transit gateway.
 
 ## I have connected a VPC to one transit gateway. Can I connect that VPC to a second transit gateway?
-{: #connections}
+{: #connections-two-vpcs}
 {: faq}
 {: support}
 
 You cannot connect a VPC to more than one transit gateway at a time. A given VPC can only be connected to one transit gateway in your account.
 
 ## I have connected the classic connection to one transit gateway. Can I connect the classic connection to a second transit gateway?
-{: #connections}
+{: #connections-two-tg}
 {: faq}
 {: support}
 
 You cannot connect a classic connection to more than one transit gateway at a time. The classic connection can only be connected to one transit gateway in your account.
 
 ## I can only provision a transit gateway in a certain set of locations on the provisioning page. Does that mean the VPC I want to connect has to be located in one of those locations?
-{: #connections}
+{: #connections-locations}
 {: faq}
 {: support}
 
@@ -131,31 +132,37 @@ A VPN or Direct Link cannot be connected to a transit gateway today.
 
 ## How can I guarantee one of my clients is not going to impact the others? 
 {:faq}
+{: #client-impact}
 
 Capacity management handles the overall available capacity on the transit gateway and is subject to our weekly capacity management review. When the device reaches roughly a 50% load, we augment the connectivity to the device. 
  
 ## What is the maximum number of VPC connections allowed for a transit gateway?
 {:faq}
+{: #max-vpc}
 
 The limit of connections per gateway is set at 50.  
 
 ## What scalability options do I have for my transit gateway? Does it manage itself? How do I know if it's reaching maximum capacity?
 {:faq}
+{: #scalability}
 
 the IBM Cloud infrastructure manages all transit gateways. There are no scalability options available.
 
 ## How do you prevent Distributed Denial of Service (DDoS) attacks? What restrictions do you have in place? 
 {:faq}
+{: #ddos}
 
 Neither third-parties nor the internet can see your transit gateway traffic. As no critical information (such as IP router addresses) is open to anyone but you, DDoS attacks cannot bring down the network. In addition, a typical Multi-protocol Label Switching service (MPLS) uses packet filtering and applies access control lists (ACLs) to limit access. Only the ports with routing protocols from a specific area of the network can access the information.
 
 ## What are the high availability and failover mechanisms in place for my transit gateway?
 {:faq}
+{: #ha-fo}
 
 The IBM Cloud infrastructure handles high availability and disaster recovery. There are no customer interactions needed.  
 
 ## How does my transit gateway handle encryption for connectivity between VPCs?
 {:faq}
+{: #vpc-encryption}
 
 IBM Cloud Transit Gateway does not perform encryption, it only provides connectivity. Encryption between VPCs is your own responsibility.
 
