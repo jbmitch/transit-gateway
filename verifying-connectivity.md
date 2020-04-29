@@ -21,8 +21,8 @@ subcollection: transit-gateway
 {:download: .download}
 {:term: .term}
 
-# Troubleshooting your transit gateway connections
-{: #verifying-connectivity}
+# Troubleshooting
+{: #troubleshooting}
 
 There are several issues that can cause problems when attempting to communicate between resources connected to your {{site.data.keyword.tg_full}}. Review your network topology and check that the following items have been set up correctly.
 
