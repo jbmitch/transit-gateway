@@ -18,6 +18,7 @@ IBM Cloud Transit Gateway
 
     {: .navgroup id="howto"}
     connecting-vpcs.md
+    viewing-gateway.md
     editing-gateway.md
     deleting-gateway.md
     tgw-ha-dr.md
