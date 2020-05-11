@@ -24,7 +24,7 @@
     "connections": [
       "create more than two connections for a given transit gateway",
       "create more than two connection for transit gateway",
-      "have multiple transit gateway appliances",
+      "have more than 2 transit gateway connections",
       "multiple transit gateway connections",
       "more than two transit gateway connections",
       "have 2 transit gateway connections at once"

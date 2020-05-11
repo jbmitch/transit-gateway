@@ -93,8 +93,7 @@ The following table details the service limits for your transit gateway.
 
 | Service limit |  Default |
 |---------------------------|------|
-| Number of transit gateway connections | 50 |
-| Number of transit gateways per account | 5 gateways per account, 2 gateways per region |
+| Number of transit gateways | 5 gateways per account, 2 gateways per region |
 | Number of connections per transit gateway |  10 IBM Cloud VPCs per gateway, 1 IBM Cloud classic infrastructure connection |
 | Number of prefixes per connection | 15 prefixes for VPC connections, 120 prefixes for a classic connection |
 {: caption="Table 1. IBM Cloud Transit Gateway service limits" caption-side="top"}

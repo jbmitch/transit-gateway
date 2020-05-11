@@ -47,27 +47,27 @@ With {{site.data.keyword.tg_full_notm}}, you can create a single or multiple tra
 
 * {{site.data.keyword.tg_full_notm}} integrates with Identity and Access Management (IAM), letting you manage access to your transit gateway. Using IAM, you can create and manage [{{site.data.keyword.cloud_notm}} users and groups](/docs/transit-gateway?topic=transit-gateway-iam), as well as use permissions to allow or deny their access.
 
-## Connectivity patterns
+## Interconnectivity patterns
 
-{{site.data.keyword.tg_full_notm}} enables you to connect {{site.data.keyword.cloud_notm}} VPCs to the transit gateway service, allowing you to build global networks across multiple VPCs and {{site.data.keyword.cloud_notm}} regions to keep up with your business needs. {{site.data.keyword.tg_full_notm}} works across both {{site.data.keyword.cloud_notm}} generation 1 and generation 2 VPCs as well as IBM classic networks.
+{{site.data.keyword.tg_full_notm}} enables you to connect {{site.data.keyword.cloud_notm}} VPCs and classic infrastructure to transit gateways, allowing you to build global networks of multiple VPCs and classic infrastructure resources across {{site.data.keyword.cloud_notm}} regions to keep up with your business needs. {{site.data.keyword.tg_full_notm}} works across both {{site.data.keyword.cloud_notm}} generation 1 and generation 2 VPCs as well as IBM classic networks.
 
 {{site.data.keyword.tg_full_notm}} can connect to classic networks located in any MZR, regardless of the location of the transit gateway or the routing type specified.
 {: note}
 
 Here are a few ways you can implement the {{site.data.keyword.tg_full_notm}} service.
 
-### Use case 1: Connect two or more VPCs in the same MZR
+### Use case 1: Interconnect two or more VPCs in the same MZR
 
 ![Connect two or more VPCs in the same MZR](images/TGW_SameRegion.png "Connect two or more VPCs in the same MZR")
 
-### Use case 2: Connect two or more VPCs across multiple MZRs
+### Use case 2: Interconnect two or more VPCs across multiple MZRs
 
 ![Connect two or more VPCs across multiple MZRs](images/TGW_Multi-Multi.png "Connect two or more VPCs across multiple MZRs")
 
-### Use case 3: Connect to the IBM classic network and one or more VPCs in the same MZR
+### Use case 3: Interconnect one or more VPCs in the same MZR and an IBM classic network
 
 ![Connect to the IBM classic network and one or more VPCs in the same MZR](images/TGW_Classic.png "Connect an IBM classic network and one or more VPCs in the same MZR")
 
-### Use case 4: Connect an IBM classic network and VPCs to access all your resources across all MZRs
+### Use case 4: Interconnect VPCs and an IBM classic network to access all your resources across all MZRs
 
 ![Connect to the IBM classic network and VPCs to access all your resources across all MZRs](images/twg_use_4.png "Connect an IBM classic network and VPCs to access all your resources across all MZRs")
