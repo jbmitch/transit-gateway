@@ -2,7 +2,11 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-11"
+lastupdated: "2020-04-16"
+
+keywords: transit, gateway, verifying, connection, connectivity
+
+subcollection: transit-gateway
 
 ---
 
@@ -22,12 +26,13 @@ lastupdated: "2020-05-11"
 
 There are several issues that can cause problems when attempting to communicate between resources connected to your {{site.data.keyword.tg_full}}. Review your network topology and check that the following items have been set up correctly.
 
-## Confirming your configuration
+## Checking your permissions
 {: #confirm-configuration}
 
-Double check that you have connected the correct resources. In addition, make sure you have the correct [IAM permissions](/docs/transit-gateway?topic=transit-gateway-iam#iam) to use {{site.data.keyword.tg_full_notm}} and {{site.data.keyword.cloud_notm}} VPC for the connections you are attempting to make.
+If you are encountering resource issues on the provisioning page, make sure you have the correct [IAM permissions](/docs/transit-gateway?topic=transit-gateway-iam#iam) in order to use {{site.data.keyword.tg_full_notm}} and {{site.data.keyword.cloud_notm}} VPC for the connections you are attempting to make.
 
-If you cannot access the provisioning page successfully, you might want to check that your account administrator did not disable visibility to the [IBM Cloud Catalog](https://cloud.ibm.com/docs/account?topic=account-manage-catalog).
+If you cannot successfully provision a transit gateway, your account administrator may have disabled certain users' visibility to the [IBM Cloud Catalog](https://cloud.ibm.com/docs/account?topic=account-manage-catalog).
+{: tip}
 
 ## Dealing with overlapping prefixes
 {: #overlapping-prefixes}
