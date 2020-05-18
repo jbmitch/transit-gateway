@@ -43,7 +43,7 @@ With {{site.data.keyword.tg_full_notm}}, you can create a single or multiple tra
 
 * Connections to and from an {{site.data.keyword.tg_full_notm}} on the IBM private network are not exposed to the public internet. This reduces public egress and VPN costs as well as reduces security threats.
 
-* {{site.data.keyword.tg_full_notm}} is a fully redundant, fault-tolerant service with no single point of failure within the {{site.data.keyword.cloud_notm}} Multi-Zone Regions (MZR) `us-south` (Dallas), `us-east` (Washington D.C.), `eu-de` (Frankfurt), and `au-syd` (Sydney).
+* {{site.data.keyword.tg_full_notm}} is a fully redundant, fault-tolerant service with no single point of failure within the {{site.data.keyword.cloud_notm}} Multi-Zone Regions (MZR) `us-south` (Dallas), `us-east` (Washington D.C.), `eu-de` (Frankfurt), `jp-tok` (Tokyo), and `au-syd` (Sydney).
 
 * {{site.data.keyword.tg_full_notm}} integrates with Identity and Access Management (IAM), letting you manage access to your transit gateway. Using IAM, you can create and manage [{{site.data.keyword.cloud_notm}} users and groups](/docs/transit-gateway?topic=transit-gateway-iam), as well as use permissions to allow or deny their access.
 
