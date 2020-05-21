@@ -135,12 +135,6 @@ A VPN or Direct Link cannot be connected to a transit gateway today.
 
 Capacity management handles the overall available capacity on the transit gateway and is subject to our weekly capacity management review. When the device reaches roughly a 50% load, we augment the connectivity to the device. 
  
-## What is the maximum number of VPC connections allowed for a transit gateway?
-{:faq}
-{: #max-vpc}
-
-The limit of connections per gateway is set at 50.  
-
 ## What scalability options do I have for my transit gateway? Does it manage itself? How do I know if it's reaching maximum capacity?
 {:faq}
 {: #scalability}

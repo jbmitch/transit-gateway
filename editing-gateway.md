@@ -99,7 +99,7 @@ From here you can change the gateway's name, as well as its routing type (Local 
 To change a transit gateway's routing type from Global to Local, you must delete any connections that are not local to the transit gateway's location.
 {: tip}
 
-When changing from Local to Global routing, you will be charged for all associated global connections.
+When changing from Local to Global routing for a given transit gateway, you will be charged for all associated connection traffic.
 {: important}
 
 ![Editing your configuration](images/editConnection.png "Editing your configuration")

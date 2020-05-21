@@ -37,7 +37,7 @@ To add a connection to a transit gateway, perform the following procedure:
 
 ![View transit gateways](images/view-gateways.png "View your transit gateways")
 
-Here you see all of your transit gateways, and can take additional actions to [manage](/docs/infrastructure/transit-gateway?topic=transit-gateway-edit-gateway) or [delete](/docs/infrastructure/transit-gateway?topic=transit-gateway-delete-gateway) them.
+Here you see all of your transit gateways, and can take additional actions to [manage](/docs/transit-gateway?topic=transit-gateway-edit-gateway) or [delete](/docs/transit-gateway?topic=transit-gateway-delete-gateway) them.
 
 You can sort the view by clicking on the tabs at the top of the table. You can cycle between A-Z alphabetical, Z-A alphabetical, and by the age of the service. Your options for sorting are:
 

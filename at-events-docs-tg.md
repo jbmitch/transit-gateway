@@ -47,6 +47,6 @@ The following actions generate events for IBM Cloud Transit Gateway:
 ## Viewing events
 {: #at_ui}
 
-Events are available in the **Dallas** location (`us-south`) region only. {{site.data.keyword.at_full_notm}} can have only one instance per location.
+Events are available in the **Frankfurt** location (`eu-de` region) only. {{site.data.keyword.at_full_notm}} can have only one instance per location.
 
-You can view events by accessing the web UI of the {{site.data.keyword.at_full_notm}} service in the `us-south` region. For more information, see [Launching the web UI through the IBM Cloud UI](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-launch#launch_step2).
+You can view events by accessing the web UI of the {{site.data.keyword.at_full_notm}} service in the `eu-de` region. For more information, see [Launching the web UI through the IBM Cloud UI](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-launch#launch_step2).
