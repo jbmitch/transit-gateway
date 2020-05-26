@@ -30,6 +30,7 @@ IBM Cloud Transit Gateway
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    locations.md
     /tg-cli-plugin/tg-cli-plugin-transit-gateway-cli
     [Transit Gateway API reference](https://{DomainName}/apidocs/transit-gateway)
     tg-responsibilities.md
