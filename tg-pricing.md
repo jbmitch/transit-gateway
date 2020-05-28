@@ -56,7 +56,7 @@ The following examples describe various pricing scenarios for {{site.data.keywor
 ### Example 1: Locally routed transit gateway with VPCs
 {: #example1}
 
-You create a locally routed transit gateway in `us-south` (Dallas) and attach 8 VPCs to it (all in `us-south`). Then, you transfer 2 TB of data between the VPCs this month. Because you have less than 10 monthly connections, there are no connection fees. There is also no charge for locally routed data transfers between the VPCs.
+You create a locally routed transit gateway in `us-south` (Dallas) and attach 8 VPCs to it (all in `us-south`). Then, you transfer 2 TB of data between the VPCs this month. Because you have less than 10 monthly connections, there are no connection fees. Also, because you selected local routing, there is no charge for any data transfer between the VPCs.
 
    * {{site.data.keyword.tg_full_notm}} connection charge = *FREE*     
    * {{site.data.keyword.tg_full_notm}} data transfer charge = *FREE*   
@@ -64,7 +64,7 @@ You create a locally routed transit gateway in `us-south` (Dallas) and attach 8 
 ### Example 2: Locally routed transit gateway with VPCs and a classic connection
 {: #example2}
 
-You create a locally routed transit gateway in `us-south` (Dallas) and attach 8 VPCs (all in `us-south`) and 1 classic infrastructure connection, which gives you access to classic resources across MZRs. Then, you transfer a total of 2 TB of data between the VPCs and classic infrastructure networks this month. Because you have less than the free allocation of 10 monthly connections, there are no connection fees. There is also no charge for locally routed data transfers between the VPCs and classic infrastructure.
+You create a locally routed transit gateway in `us-south` (Dallas) and attach 8 VPCs (all in `us-south`) and 1 classic infrastructure connection, which gives you access to classic resources across MZRs. Then, you transfer a total of 2 TB of data between the VPCs and classic infrastructure networks this month. Because you have less than the free allocation of 10 monthly connections, there are no connection fees. Also, because you selected local routing, there is no charge for any data transfer between the VPCs and classic infrastructure.
 
    * {{site.data.keyword.tg_full_notm}} connection charge = *FREE*     
    * {{site.data.keyword.tg_full_notm}} data transfer charge = *FREE*    

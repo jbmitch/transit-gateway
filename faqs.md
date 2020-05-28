@@ -160,3 +160,15 @@ The IBM Cloud infrastructure handles high availability and disaster recovery. T
 IBM Cloud Transit Gateway does not perform encryption, it only provides connectivity. Encryption between VPCs is your own responsibility.
 
 It is an RFC-2547 based platform the core network and network address are 100% concealed. 
+
+## What are the tools for monitoring the consumption of resources associated with the service, as well as the costs and the quality of the service?
+{:faq}
+{: #billing-usage}
+
+IBM Cloud Transit Gateway is integrated into the [IBM Cloud usage dashboard](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-viewingusage), which provides a summary of estimated charges for all services and resources that are used per month in your organizations. This includes the number of connections and the amount of traffic flowing across your transit gateways. IBM Cloud Transit Gateway usage is billed and reported as part of the [IBM Cloud invoice process](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-managing-invoices). 
+
+## Are there notifications through email for events of unavailability of the service?
+{:faq}
+{: #service-unavailability-notifications}
+
+The standard [IBM Cloud notification process](https://cloud.ibm.com/docs/get-support?topic=get-support-viewing-notifications) is used for any maintenance events.
