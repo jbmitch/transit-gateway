@@ -54,7 +54,7 @@ You and IBM have unique responsibilities for security and compliance.
 {: caption="Table 2. Security and regulation responsibilities" caption-side="top"}
 
 ## Disaster recovery
-{: #disaster-recovery}
+{: #responsibilities-disaster-recovery}
 
 You and IBM have unique responsibilities for disaster recovery.
 
